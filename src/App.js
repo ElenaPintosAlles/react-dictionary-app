@@ -9,9 +9,14 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">
+        <footer className="App-footer">
           {" "}
-          <small>Coded by Elena Pintos Alles</small>{" "}
+          <small>
+            Coded by Elena Pintos Alles <br />
+            <a href="https://github.com/ElenaPintosAlles/react-dictionary-app">
+              Github
+            </a>
+          </small>
         </footer>
       </div>
     </div>
